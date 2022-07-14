@@ -5,7 +5,8 @@ Inductive loops on the east and west pathways count the passing of bicycles rega
 
 ### Forecasting the bicycle counts
 
-* This notebook consist of forecasting code using prophet library. 
+* This notebook consist of forecasting codes
+* Forecasting is done using Meta's prophet library. 
 * Here I have forecasted the Bicycle counts for next 2 years.
 * Included holidays to observe the impact on daily counts.
 * Performed a forward-chaining cross-validation.
