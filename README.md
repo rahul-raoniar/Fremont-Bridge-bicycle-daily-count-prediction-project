@@ -1,4 +1,4 @@
-# `Seattle Fremont bridge bicycle daily count forecast using facebook's prophet library [project]`
+# Seattle Fremont bridge bicycle daily count forecast using facebook's prophet library [project]
 
 ### `Project Aim`: The aim is to forecast the Fremont Bridge Bicycle ridership for next two years using facebook's prophet library.
 
