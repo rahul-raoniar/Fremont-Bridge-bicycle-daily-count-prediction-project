@@ -25,9 +25,9 @@ Inductive loops on the east and west pathways count the passing of bicycles rega
 3. EDA: Performing exploratory analysis
 4. Converted (resamples) data to daily and weekly count to check the pattern and inconsistencies
 
-Here is a plot for weekly ridership count
+Here is a plot for daily ridership count:
 
-<img src="weekly_pattern.png" width="500">
+<img src="daily_pattern.png" width="500">
 
 5. Next, added holidays to check the impact of holidays on count forecast
     * Holidays associated with Washinton states has been utilised
