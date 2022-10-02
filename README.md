@@ -27,7 +27,7 @@ Inductive loops on the east and west pathways count the passing of bicycles rega
 
 Here is a plot for daily ridership count:
 
-<img src="daily_pattern.png" width="500">
+<img src="daily_pattern.png" width="700">
 
 5. Next, added holidays to check the impact of holidays on count forecast
     * Holidays associated with Washinton states has been utilised
@@ -37,7 +37,7 @@ Here is a plot for daily ridership count:
     * Added the holidays 
 7. Generated the forecast plot using matplotlib and plotly (interactive plot)
 
-<img src="forecastplot.png" width="500">
+<img src="forecastplot.png" width="700">
 
 8. Saved the model to json file using pickle library
 9. Generated a components plot using matplotlib and plotly (interactive plot)
@@ -45,7 +45,7 @@ Here is a plot for daily ridership count:
     * The `yearly trend` showed that `June to August` (summer) the bicycle `ridership grows by 40%`, while it `drops` by `20%-40%` during `January to March` (winder season).
     * `Weekly ridership` trend revealed that `Monday to Friday` the ridership `increases by 20%` while during `weekend` it `drops` by `40%`.
 
-<img src="components_plot.png" width="500">
+<img src="components_plot.png" width="700">
 
 10. Performed model evaluation using a forward chaining cross-validation with
     * horizon = '90 days'
@@ -55,5 +55,5 @@ Here is a plot for daily ridership count:
 11. Generated a cross-validation metric plot
     * Used `rmse` as evaluation metric and selected a `rolling_window` of 0.1 (10%)
 
-<img src="cross_validation_plot.png" width="500">
+<img src="cross_validation_plot.png" width="700">
 
